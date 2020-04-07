@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bilietų Pardavimo Platforma</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" type="image/png" href="images/plane.ico"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+<body>
+<script src="datetime.js"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/lt_LT/sdk.js#xfbml=1&version=v6.0&appId=2081443732163904&autoLogAppEvents=1"></script> <!-- fb api !-->
+<body onload="startTime()">
+<marquee behavior="scroll" loop="-1" width="93%"><i><font color="#2F4F4F"><strong><div id="txt"></div></strong></font></i></marquee>
+
+	<div class="wrapper">
+		<nav class="navbar">
+			<img class="logo" src="images/logo.png">
+			<ul>
+				<li><a href="index.html">Bilietų paieška</a></li>
+				<li><a class="active" href="#">Registracija</a></li>
+				<li><a href="prisijungimas.html">Prisijungimas</a></li>
+				<li><a href="pagalba.html">Pagalba</a></li>
+			</ul>
+		</nav>
+
+			
+		<div class="forma">
+			<div class="header">Registracija</div>
+			<form>
+				<div class="fb-login-button" data-width="" data-size="medium" data-button-type="login_with" data-auto-logout-link="false" data-use-continue-as="false"></div></br></br>
+
+				<input type="text" placeholder="El. pašto adresas">
+				<i class="far fa-envelope"></i>
+				<input type="text" placeholder="Vardas">
+				<i class="fas fa-signature"></i>
+				<input type="text" placeholder="Pavardė">
+				<i class="fas fa-signature"></i>
+				<input type="password" placeholder="Slaptažodis">
+				<i class="fas fa-lock"></i>
+				<input type="submit" value="Registruotis"></input>
+			</form>
+		</div>
+
+
+		<div class="footer1">
+			<b>Apie mus:</b></br>Esame pirmoji Lietuvoje sukurta elektroninių bilietų pardavimo sistema. Mūsų komandoje dirba profesionalai iš visos Lietuvos. Svarbiausias mūsų tiklas - patenkintas klientas.
+		</div>
+		<div class="footer2">
+			<b>Mūsų partneriai:</b>
+			<ul>
+			  <li>Lietuvos Policija</li>
+			  <li>Vilniaus Oro Uostas</li>
+			  <li>Palangos Oro Uostas</li>
+			  <li>Kauno Oro Uostas</li>
+			  <li>Vilniaus Gedimino Technikos Universitetas</li>
+			</ul>  
+		</div>
+		<div class="footer3">
+			<b>Kontaktai:</b></br>Telefonas: +370 6 0000000<br/>
+			El. paštas: pastas@elpastas.lt<br/>
+			Adresas: Vilnius, Saulėtekio alėja
+		</div>
+	</div>
+	<center><font color="#2F4F4F">2020 © Elektroninių Bilietų Platformą. Visos teisės saugomos.</font></center>
+</body>
+</html>
