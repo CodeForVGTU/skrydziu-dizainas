@@ -47,7 +47,7 @@
 			<h1>Sveiki atvykę į<br>Elektroninių Bilietų Platformą . . .</h1>
 			<h2>Išsirink kelionės bilietą pas mus!</h2><br/>
 			<div class="buttons">
-				<form>
+				<form action="bilietu_sarasas.html">
 					<p><font for="amount" color="white" for="amount">Kaina:</font></br>
    						<input type="text" id="amount" readonly>
 					  </p></br><!--div class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="slider-range"-->
@@ -60,9 +60,9 @@
 
 					</br>
 
-					<input type="text" placeholder="Keliauju iš ...">
-					<input type="text" placeholder="Keliauju į ..."></br>
-					<font color="white">Išvykimo data:</font></br><input type="date" id="start" name="trip-start" value="2020-02-27">
+					<input type="text" placeholder="Keliauju iš ..." required >
+					<input  required type="text" placeholder="Keliauju į ..." ></br>
+					<font color="white">Išvykimo data:</font></br><input type="date" id="start" name="trip-start" value="2020-02-27" required>
 					<input type="submit" value="Ieškoti bilieto"></input>
 				</form>
 			</div>
