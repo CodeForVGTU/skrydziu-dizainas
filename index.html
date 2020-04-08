@@ -6,10 +6,9 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="shortcut icon" type="image/png" href="images/plane.ico"/>
 	<!--Raimos slide price range function changes-->
-	   <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+	   <!--link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css"-->
    <script src="//code.jquery.com/jquery-1.9.1.js"></script>
    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-   <link rel="stylesheet" href="/resources/demos/style.css">
    <script>
     $(function() {
      $( "#slider-range" ).slider({
@@ -51,7 +50,13 @@
 				<form>
 					<p><font for="amount" color="white" for="amount">Kaina:</font></br>
    						<input type="text" id="amount" readonly>
-					  </p></br><div id="slider-range"  style="width:335px;"></div>
+					  </p></br><!--div class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="slider-range"-->
+
+					<div id="slider-range" style="width:335px;" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+						<div class="ui-slider-range ui-widget-header ui-corner-all"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" ></a>
+						<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" ></a></div>
+
+				<!--/div-->
 
 					</br>
 
